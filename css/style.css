@@ -70,6 +70,18 @@ section:nth-child(even){
     background-color: grey;
 }
 
+section .col-img{
+    flex-basis: 65%;
+    background-color: rgb(36, 130, 231);
+    padding: 1rem;
+}
+
+section .col-p{
+    flex-basis: 35%;
+    background-color: pink;
+    padding: 1rem;
+}
+
 div.container.big,
 header div.container{
     padding: 15rem 0;
@@ -82,4 +94,21 @@ footer{
 
 footer div.container{
     padding: 8rem 0;
+}
+
+footer div.container>*{
+    flex-grow: 1;
+    background-color: aquamarine;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+footer div.container>div:first-of-type{
+    flex-grow: 1.5;
+    background-color: brown;
+}
+
+footer nav.container{
+    background-color: aqua;
+    justify-content: space-between;
 }
