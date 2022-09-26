@@ -23,6 +23,14 @@ html{
 	color: ;
 }
 
+.bgc_lightblue{
+	background-color: lightblue;
+}
+
+.bgc_blue{
+	background-color: blue;
+}
+
 .bgc_{
 	background-color: ;
 }
@@ -34,5 +42,23 @@ html{
 .container{
     width: 920px;
     margin: 0 auto;
+    padding: 3rem 0;
+    border: 1px  solid red;
 }
 /* -------------------------------------------------------------------------------------- */
+
+header>div{
+    padding: 3rem 0;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+section:nth-child(even){
+    background-color: grey;
+}
+
+footer{
+    background-color: black;
+}
