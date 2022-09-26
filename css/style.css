@@ -112,3 +112,7 @@ footer nav.container{
     background-color: aqua;
     justify-content: space-between;
 }
+
+hr{
+    margin: 1rem;
+}
