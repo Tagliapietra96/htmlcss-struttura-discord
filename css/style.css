@@ -19,8 +19,8 @@ html{
 	text-align: center;
 }
 
-.txt-c_{
-	color: ;
+.txt-c_white{
+	color: white;
 }
 
 .bgc_lightblue{
@@ -31,10 +31,6 @@ html{
 .bgc_blue{
 	background-color: blue;
     padding: 3rem 0;
-}
-
-.bgc_{
-	background-color: ;
 }
 
 .flex{
@@ -48,6 +44,19 @@ html{
     border: 1px  solid red;
 }
 /* -------------------------------------------------------------------------------------- */
+
+header nav div:nth-child(2){
+    flex-grow: 1;
+}
+
+header ul.flex{
+    justify-content: center;
+    gap: 1rem;
+}
+
+header li{
+    list-style: none;
+}
 
 header div.container{
     width: 700px;
